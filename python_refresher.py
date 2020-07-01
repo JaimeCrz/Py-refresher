@@ -26,6 +26,12 @@ var1 = 20
 var2 = 40
 print('This is var1 is now: {a} and var2 also changed!: {b}'.format(a=var1, b=var2))
 
+# STANDARD CONVENTION! Usage of F. Strings is commonly use. only works on +3.6 python
+num1 = 35
+num2 = 55
+print(f"This is num1 is now: {num1} and num2 also changed!: {num2}.")
+
+
 # Create two variables, num1 and num2, which multiply together to give 16.
 
 num1 = 8
